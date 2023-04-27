@@ -2,7 +2,8 @@ import cv2 as cv
 import numpy as np
 
 # The video feed is read in as a VideoCapture object
-cap = cv.VideoCapture("C:/git/bouncing-ball/video/tennis bounceball.mp4")
+cap = cv.VideoCapture("C:/Hero/연구실/개인 연구/spin bounce ball/11 - 1of2.mp4")
+
 # ret = a boolean return value from getting the frame, first_frame = the first frame in the entire video sequence
 ret, first_frame = cap.read()
 # Converts frame to grayscale because we only need the luminance channel for detecting edges - less computationally expensive

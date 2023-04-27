@@ -6,7 +6,8 @@ feature_params = dict(maxCorners = 300, qualityLevel = 0.2, minDistance = 2, blo
 # Parameters for Lucas-Kanade optical flow
 lk_params = dict(winSize = (10,10), maxLevel = 2, criteria = (cv.TERM_CRITERIA_EPS | cv.TERM_CRITERIA_COUNT, 10, 0.03))
 # The video feed is read in as a VideoCapture object
-cap = cv.VideoCapture("C:/git/bouncing-ball/video/yellow bounceball.mp4")
+cap = cv.VideoCapture("C:/Hero/연구실/개인 연구/spin bounce ball/11 - 1of2.mp4")
+
 # Variable for color to draw optical flow track
 color = (0, 255, 0)
 # ret = a boolean return value from getting the frame, first_frame = the first frame in the entire video sequence
