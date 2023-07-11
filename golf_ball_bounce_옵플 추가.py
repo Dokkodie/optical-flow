@@ -55,7 +55,7 @@ def draw_flow(img, flow, step=16):
     return vis
 
 
-cap = cv2.VideoCapture("C:/Users/User/.spyder-py3/Physics/tok bounceball2.mp4")
+cap = cv2.VideoCapture("C:/git/bouncing-ball/video/tok ball3.mp4")
 
 
 list_ball_location = []
